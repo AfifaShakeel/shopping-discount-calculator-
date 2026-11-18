@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int discount;
+int price;
+int discountAmount;
+int finalPrice;
+cin >> price;
+cin >> discount ;
+discountAmount = (price * discount) / 100;
+finalPrice = price - discountAmount;
+cout << "Discount Amount: " << discountAmount;
+cout << "Final Price: " << finalPrice;
+return 0;
+}
